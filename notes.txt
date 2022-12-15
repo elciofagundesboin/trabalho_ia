@@ -1,0 +1,76 @@
+Questão de Pesquisa:
+    Qual é a diferença na eficiência do modelo considerando amostras de um mesmo áudio em qualidades (taxas de bits) ou formatos de arquivo distintos?
+
+Passos:
+1 - Processar as músicas com o wisper e salvar cada resultado em um arquivo.
+2 - Comparar cada resultado obtido com a letra original
+3 - Fazer uma média dos valores
+4 - Com as médias, montar um gráfico
+
+Músicas:
+Faroeste Caboclo
+A Rezadeira
+A Queda
+Malandragem
+Naquela Mesa
+
+Bohemian Rhapsody
+Hey Jude
+Sound of Silence
+Wellerman
+Summertime Sadness
+
+Cuando Suba la Marea
+Despacito
+El Perdón
+Ni Sueño Ni Amor Sin Ti
+Guajira Guantanamera
+
+
+Links:
+Faroeste Caboclo
+https://music.youtube.com/watch?v=qBIxI580dI8
+
+A Rezadeira
+https://music.youtube.com/watch?v=h50UX7FvQks
+
+A Queda
+https://music.youtube.com/watch?v=zoJRKVOtFvo
+
+Malandragem
+https://music.youtube.com/watch?v=mJ3IS1rj5uM
+
+Naquela Mesa
+https://music.youtube.com/watch?v=vKbUEdV6FHw
+
+
+Bohemian Rhapsody
+https://music.youtube.com/watch?v=bSnlKl_PoQU
+
+Hey Jude
+https://music.youtube.com/watch?v=mQER0A0ej0M
+
+Sound of Silence
+https://music.youtube.com/watch?v=bjkPQYWNTlg
+
+Wellerman
+https://music.youtube.com/watch?v=DPe2diiGJRE
+
+Summertime Sadness
+https://music.youtube.com/watch?v=fRQg_9ulGuI
+
+
+Cuando Suba la Marea
+https://music.youtube.com/watch?v=FkDPEJf6zDM
+
+Despacito
+https://music.youtube.com/watch?v=FXovf5dsRTw
+
+El Perdón
+https://music.youtube.com/watch?v=wkgTEzEBjD4
+
+Ni Sueño Ni Amor Sin Ti
+https://music.youtube.com/watch?v=bx31KI8jxqk
+
+Guajira Guantanamera
+https://music.youtube.com/watch?v=gdYIpvnzoW8
