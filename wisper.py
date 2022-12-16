@@ -51,5 +51,10 @@ def processa_musica(musica):
 # Observações:
 # 1 - informar somente o 'Nome da Musica':
 # 2 - as músicas devem estar previamente nomeadas (na pasta 'audio/[kbps]/') no padrão exemplo: "Nome da Musica.mp3"
-#processa_musica('Faroeste Caboclo')
-processa_musica('Cuando Suba La Marea')
+#processa_musica('Cuando Suba La Marea')
+processa_musica('Faroeste Caboclo')
+processa_musica('Bohemian Rhapsody')
+processa_musica('Hey Jude')
+processa_musica('Sound of Silence')
+processa_musica('Wellerman')
+processa_musica('Summertime Sadness')
