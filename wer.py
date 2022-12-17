@@ -36,8 +36,13 @@ def calcula_erro(musica):
     f_output.close()
     
 # Chama as funções para realizar os cálculos
+#calcula_erro('Cuando Suba La Marea')
 #calcula_erro('Faroeste Caboclo')
-calcula_erro('Cuando Suba La Marea')
+calcula_erro('Bohemian Rhapsody')
+calcula_erro('Counting Stars')
+calcula_erro('The Sound of Silence')
+calcula_erro('Wellerman')
+calcula_erro('Summertime Sadness')
 
 '''
 Estrutura do arquivo exportado com os resultados do WER:
