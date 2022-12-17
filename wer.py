@@ -8,7 +8,6 @@ def calcula_erro(musica):
     f_output = open(caminho_saida, "a+", encoding='utf-8')
 
     modelos = ['tiny','base','small','medium','large']
-    saidas = []
     for modelo in modelos:
         # abre o arquivo com o texto original (letra)
         caminho_origem = 'letras/'+ musica +' - Letra.txt'
@@ -17,7 +16,6 @@ def calcula_erro(musica):
         f_origem.close()
         
         kbps = 64
-        saida = []
         for i in range (5):
             # abre o arquivo com o texto de hipotese (resultado do wisper)
             caminho_hipotese = 'saida_wer/'+ musica +'-'+ str(kbps) +'-'+ modelo + '.txt'
@@ -31,15 +29,45 @@ def calcula_erro(musica):
             # imprime na tela e grava o resultado do WER no arquivo de saída
             print('WER ('+ caminho_origem +')('+ caminho_hipotese +'): '+ str(wer))
             print ('------------------------')
-            saida.append(wer)
+            # grava o resultado no arquivo de saída
+            f_output.write(str(wer) + '\n')
             kbps += 64
-        saidas.append(saida)
-    # grava o resultado no arquivo de saída
-    f_output.write(str(saida) + '\n')
     # fecha o arquivo de saída
     f_output.close()
-        
-
+    
 # Chama as funções para realizar os cálculos
-calcula_erro('Faroeste Caboclo')
+#calcula_erro('Faroeste Caboclo')
 calcula_erro('Cuando Suba La Marea')
+
+'''
+Estrutura do arquivo exportado com os resultados do WER:
+O arquivo .txt exportado guarda em cada linha o resultado do WER para cada uma das situações, respectivamente:
+
+    tiny 64kbps
+    tiny 128kbps
+    tiny 192kbps
+    tiny 256kbps
+    tiny 320kbps
+    base 64kbps
+    base 128kbps
+    base 192kbps
+    base 256kbps
+    base 320kbps
+    small 64kbps
+    small 128kbps
+    small 192kbps
+    small 256kbps
+    small 320kbps
+    medium 64kbps
+    medium 128kbps
+    medium 192kbps
+    medium 256kbps
+    medium 320kbps
+    large 64kbps
+    large 128kbps
+    large 192kbps
+    large 256kbps
+    large 320kbps
+
+Para cada música é salvo um arquivo com os resultados dela mesma apenas.
+'''

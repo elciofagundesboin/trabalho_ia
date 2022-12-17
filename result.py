@@ -2,39 +2,46 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# calcula a media dos valores de um conjunto de arquivos
 def calcula_media(musicas):
-    kbps = 64
+    file = open('resultado/Media.txt', 'a+', encoding='utf-8')
 
+    # le os arquivos de entrada e salva o resultado de cada um em um vetor
+    vetor_resultados = []
+    for i in range(len(musicas)):
+        vetor_resultados.append(le_arquivo(musicas))
+    
+    for l in range(len(musicas)):
+        x = []
     for i in range (5):
-        arquivo_saida = 'WER-Media-'+ str(kbps) +'.txt'
-        file = open('resultado/'+ arquivo_saida, 'a+', encoding='utf-8')
-        vetor_resultados = []
-        for i in range(len(musicas)):
-            vetor_resultados.append(le_arquivo(musicas[i], str(kbps)))
-
         for j in range(5):
             valores = []
-            for i in range(len(musicas)):
+            for k in range(len(musicas)):
                 valores.append(vetor_resultados[i][j])
             
             soma = sum(valores)
             media = soma / len(valores)
-            file.write(str(media) + '\n')
+            print('Media= '+ str(media))
+            #file.write(str(media) + '\n')
 
-        file.close()
-        kbps+= 64
+    file.close()
 
-def le_arquivo(arquivo, kbps):
-    caminho_entrada = 'resultado/WER-'+ arquivo +'-'+ kbps +'.txt'
-    with open(caminho_entrada, 'r', encoding='utf-8') as file:
+# lê um arquivo de resultados e retorna um array de arrays com os valores
+def le_arquivo(arquivo):
+    with open(arquivo, 'r', encoding='utf-8') as file:
         lines = file.readlines()
-        
-    numbers = []
-    for line in lines:
-        numbers.append(float(line))
-
-    #print(numbers)
-    return numbers
+    
+    modelo = []
+    k = 0
+    for i in range(5):
+        kbps = []
+        for j in range(5):
+            kbps.append(lines[k])
+            k += 1
+        modelo.append(kbps)
+            
+    print(modelo[0])
+    #return modelo
 
 # função que ajusta os valores para percentual com duas casas decimais
 def formata_percentual(valores):
@@ -84,4 +91,6 @@ def constroi_grafico(arquivo):
 
 #musicas = ['Faroeste Caboclo', 'Cuando Suba La Marea']
 #calcula_media(musicas)
-constroi_grafico('Media')
+#constroi_grafico('Media')
+
+le_arquivo('resultado/tempos/Wellerman.txt')

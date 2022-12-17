@@ -11,10 +11,8 @@ def processa_musica(musica):
     f_output = open(caminho_saida, "a+", encoding='utf-8')
 
     modelos = ['tiny','base','small','medium','large']
-    tempos = []
     for modelo in modelos:
         kbps = 64
-        tempo = []
         for i in range (5):
             # ---
             # Carrega o modelo
@@ -33,17 +31,14 @@ def processa_musica(musica):
             file.write(result['text'])
             # Fecha o arquivo
             file.close()
-            #print(local_musica)
-            #print(arquivo_saida)
-            tempo.append(fim - inicio)
+            # grava o resultado no arquivo de saída
+            f_output.write(str(fim - inicio) + '\n')
             print('Processado: '+ modelo +' | '+ local_musica)
             print('Tempo de execução: '+ str(fim - inicio) +' segundos')
             print ('------------------------')
             # ---
             kbps += 64
-        tempos.append(tempo)
-    # grava o resultado no arquivo de saída
-    f_output.write(str(tempos) + '\n')
+    
     # fecha o arquivo de saída
     f_output.close()
 
@@ -52,9 +47,9 @@ def processa_musica(musica):
 # 1 - informar somente o 'Nome da Musica':
 # 2 - as músicas devem estar previamente nomeadas (na pasta 'audio/[kbps]/') no padrão exemplo: "Nome da Musica.mp3"
 #processa_musica('Cuando Suba La Marea')
-processa_musica('Faroeste Caboclo')
-processa_musica('Bohemian Rhapsody')
-processa_musica('Hey Jude')
-processa_musica('Sound of Silence')
-processa_musica('Wellerman')
-processa_musica('Summertime Sadness')
+#processa_musica('Faroeste Caboclo')
+#processa_musica('Bohemian Rhapsody')
+processa_musica('Counting Stars')
+#processa_musica('The Sound of Silence')
+#processa_musica('Wellerman')
+#processa_musica('Summertime Sadness')
