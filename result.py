@@ -20,13 +20,14 @@ def le_arquivo(arquivo):
     return modelo
 
 # calcula a media dos valores de um conjunto de arquivos
-def calcula_media(musicas, arquivo_saida):
-    file = open(arquivo_saida, 'a+', encoding='utf-8')
+def calcula_media(caminho_entrada, arquivos_entrada, arquivo_saida):
+    file = open(arquivo_saida, 'w+', encoding='utf-8')
 
     # le os arquivos de entrada e salva o resultado de cada um em um vetor
     vetor_resultados = []
-    for i in range(len(musicas)):
-        vetor_resultados.append(le_arquivo(musicas[i]))
+    for i in range(len(arquivos_entrada)):
+        path = caminho_entrada + arquivos_entrada[i] + '.txt'
+        vetor_resultados.append(le_arquivo(path))
     
     for i in range (5):
         for j in range(5):
@@ -54,7 +55,6 @@ def formata_tempo(valores):
         current_element = valores[i]
         valores[i] = (round(current_element, 2))
     return valores
-
 
 # função que gera o gráfico
 def constroi_grafico(arquivo_wer, arquivo_tempos):
@@ -135,9 +135,14 @@ def constroi_grafico(arquivo_wer, arquivo_tempos):
 
     plt.show()
 
+# Função que pega os resultados e salva em um arquivo
+def monta_arquivo_final():
+    x=[]
+
+
 # EXECUTA AS FUNCIONALIDADES
-#wer_musicas = ['resultado/wer/The Sound of Silence.txt', 'resultado/wer/Wellerman.txt']
-#calcula_media(wer_musicas, 'resultado/Media-WER.txt')
-#tempos_musicas = ['resultado/tempos/The Sound of Silence.txt', 'resultado/tempos/Wellerman.txt']
-#calcula_media(tempos_musicas, 'resultado/Media-Tempos.txt')
-constroi_grafico('resultado/Media-WER.txt', 'resultado/Media-Tempos.txt')
+wer_musicas = ['The Sound of Silence', 'Wellerman']
+calcula_media('resultado/wer/', wer_musicas, 'resultado/Media-WER.txt')
+tempos_musicas = ['The Sound of Silence', 'Wellerman']
+calcula_media('resultado/tempos/', tempos_musicas, 'resultado/Media-Tempos.txt')
+#constroi_grafico('resultado/Media-WER.txt', 'resultado/Media-Tempos.txt')
