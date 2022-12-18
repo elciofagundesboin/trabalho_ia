@@ -283,18 +283,18 @@ def main():
     
     for musica in musicas:
         # Processa as músicas com Wisper (descomentar para executar)
-        #processa_musica(musica)
+        processa_musica(musica)
         # Calcula o WER das músicas processadas (descomentar para executar)
         calcula_erro(musica)
-        # Calcula a média do WER das músicas processadas (descomentar para executar)
-        calcula_media('wer', musicas)
-        # Calcula a média do tempo de processamento das músicas processadas (descomentar para executar)
-        calcula_media('tempos', musicas)
+    
+    # Calcula a média do WER das músicas processadas (descomentar para executar)
+    calcula_media('wer', musicas)
+    # Calcula a média do tempo de processamento das músicas processadas (descomentar para executar)
+    calcula_media('tempos', musicas)
 
     # Mostra na tela o gráfico com as médias
     gera_arquivo_final(musicas)
     constroi_grafico()
     
 # Executa a função Main
-#main()
-constroi_grafico()
+main()
