@@ -1,0 +1,502 @@
+RESULTADOS DAS MÚSICAS INDIVIDUALMENTE:
+
+Música: Bohemian Rhapsody
+	Modelo: tiny
+		Taxa de Bits: 64:
+			Taxa de erro: 0.7527173913043478
+			Tempo de Processamento (segundos): 38.372948699994595 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.6385869565217391
+			Tempo de Processamento (segundos): 19.15479270000651 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.7255434782608695
+			Tempo de Processamento (segundos): 27.616200799995568 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.8016304347826086
+			Tempo de Processamento (segundos): 35.28462530000252 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.8070652173913043
+			Tempo de Processamento (segundos): 16.930581599997822 
+	Modelo: base
+		Taxa de Bits: 64:
+			Taxa de erro: 0.6304347826086957
+			Tempo de Processamento (segundos): 53.093129399989266 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.6195652173913043
+			Tempo de Processamento (segundos): 64.19530210000812 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.5190217391304348
+			Tempo de Processamento (segundos): 60.53588949999539 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.532608695652174
+			Tempo de Processamento (segundos): 49.33582039999601 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.4891304347826087
+			Tempo de Processamento (segundos): 71.63068750000093 
+	Modelo: small
+		Taxa de Bits: 64:
+			Taxa de erro: 0.3858695652173913
+			Tempo de Processamento (segundos): 88.56485070000053 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.3451086956521739
+			Tempo de Processamento (segundos): 79.66568820000975 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.37771739130434784
+			Tempo de Processamento (segundos): 82.06715379998786 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.43478260869565216
+			Tempo de Processamento (segundos): 115.54442550000385 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.37228260869565216
+			Tempo de Processamento (segundos): 81.65102440000919 
+	Modelo: medium
+		Taxa de Bits: 64:
+			Taxa de erro: 0.2554347826086957
+			Tempo de Processamento (segundos): 410.0579381000134 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.25271739130434784
+			Tempo de Processamento (segundos): 444.96496189999743 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.2554347826086957
+			Tempo de Processamento (segundos): 306.97015900000406 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.22282608695652173
+			Tempo de Processamento (segundos): 272.02175349999743 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.24728260869565216
+			Tempo de Processamento (segundos): 345.44029660000524 
+	Modelo: large
+		Taxa de Bits: 64:
+			Taxa de erro: 0.22010869565217392
+			Tempo de Processamento (segundos): 467.97360529999423 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.2418478260869565
+			Tempo de Processamento (segundos): 621.3740502 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.2391304347826087
+			Tempo de Processamento (segundos): 636.2679407999967 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.20923913043478262
+			Tempo de Processamento (segundos): 474.5855484000058 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.20923913043478262
+			Tempo de Processamento (segundos): 469.66691349999746 
+
+Música: Counting Stars
+	Modelo: tiny
+		Taxa de Bits: 64:
+			Taxa de erro: 0.6728538283062645
+			Tempo de Processamento (segundos): 25.388512999983504 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.6450116009280742
+			Tempo de Processamento (segundos): 31.258456399984425 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.679814385150812
+			Tempo de Processamento (segundos): 28.38041320000775 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.7865429234338747
+			Tempo de Processamento (segundos): 42.45306610001717 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.6102088167053364
+			Tempo de Processamento (segundos): 41.10825049999403 
+	Modelo: base
+		Taxa de Bits: 64:
+			Taxa de erro: 0.851508120649652
+			Tempo de Processamento (segundos): 85.89430799998809 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.580046403712297
+			Tempo de Processamento (segundos): 70.56927929999074 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.691415313225058
+			Tempo de Processamento (segundos): 24.28752829998848 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.691415313225058
+			Tempo de Processamento (segundos): 24.876813399983803 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.5452436194895591
+			Tempo de Processamento (segundos): 70.16546269998071 
+	Modelo: small
+		Taxa de Bits: 64:
+			Taxa de erro: 0.34106728538283065
+			Tempo de Processamento (segundos): 178.4959108000039 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.3271461716937355
+			Tempo de Processamento (segundos): 184.25977639999473 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.3689095127610209
+			Tempo de Processamento (segundos): 178.70189669998945 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.3665893271461717
+			Tempo de Processamento (segundos): 151.45548049997888 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.3433874709976798
+			Tempo de Processamento (segundos): 194.28286540001864 
+	Modelo: medium
+		Taxa de Bits: 64:
+			Taxa de erro: 0.25754060324825984
+			Tempo de Processamento (segundos): 226.46002560001216 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.20417633410672853
+			Tempo de Processamento (segundos): 233.55115220000152 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.2482598607888631
+			Tempo de Processamento (segundos): 234.7619811000186 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.2482598607888631
+			Tempo de Processamento (segundos): 222.39309900000808 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.24361948955916474
+			Tempo de Processamento (segundos): 232.71405219999724 
+	Modelo: large
+		Taxa de Bits: 64:
+			Taxa de erro: 0.28074245939675174
+			Tempo de Processamento (segundos): 412.55487959997845 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.2900232018561485
+			Tempo de Processamento (segundos): 434.1036593999888 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.25986078886310904
+			Tempo de Processamento (segundos): 400.68876809999347 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.25986078886310904
+			Tempo de Processamento (segundos): 415.8787827999913 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.30162412993039445
+			Tempo de Processamento (segundos): 389.87296419998165 
+
+Música: Summertime Sadness
+	Modelo: tiny
+		Taxa de Bits: 64:
+			Taxa de erro: 1.25
+			Tempo de Processamento (segundos): 21.66521579999244 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.9143835616438356
+			Tempo de Processamento (segundos): 32.59787739999592 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.839041095890411
+			Tempo de Processamento (segundos): 14.439645599981304 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.8972602739726028
+			Tempo de Processamento (segundos): 28.144869599986123 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.8356164383561644
+			Tempo de Processamento (segundos): 14.592333000007784 
+	Modelo: base
+		Taxa de Bits: 64:
+			Taxa de erro: 0.8287671232876712
+			Tempo de Processamento (segundos): 51.455259200010914 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.7465753424657534
+			Tempo de Processamento (segundos): 60.59583040000871 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.6164383561643836
+			Tempo de Processamento (segundos): 34.85428139998112 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.613013698630137
+			Tempo de Processamento (segundos): 29.456532899988815 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.6301369863013698
+			Tempo de Processamento (segundos): 28.82011450000573 
+	Modelo: small
+		Taxa de Bits: 64:
+			Taxa de erro: 0.5924657534246576
+			Tempo de Processamento (segundos): 67.84942109999247 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.3938356164383562
+			Tempo de Processamento (segundos): 71.96074730000691 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.4280821917808219
+			Tempo de Processamento (segundos): 79.67329069998232 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.5376712328767124
+			Tempo de Processamento (segundos): 72.44582799999625 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.4006849315068493
+			Tempo de Processamento (segundos): 74.2224758999946 
+	Modelo: medium
+		Taxa de Bits: 64:
+			Taxa de erro: 0.3150684931506849
+			Tempo de Processamento (segundos): 183.7158180999977 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.3082191780821918
+			Tempo de Processamento (segundos): 195.35110599998734 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.2773972602739726
+			Tempo de Processamento (segundos): 193.79847929999232 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.3013698630136986
+			Tempo de Processamento (segundos): 207.82003679999616 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.3013698630136986
+			Tempo de Processamento (segundos): 208.74173259999952 
+	Modelo: large
+		Taxa de Bits: 64:
+			Taxa de erro: 0.4657534246575342
+			Tempo de Processamento (segundos): 454.83415139999124 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.3013698630136986
+			Tempo de Processamento (segundos): 514.8941999999806 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.4383561643835616
+			Tempo de Processamento (segundos): 464.4669695000048 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.3253424657534247
+			Tempo de Processamento (segundos): 529.106286299997 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.5102739726027398
+			Tempo de Processamento (segundos): 510.0859088000143 
+
+Música: The Sound of Silence
+	Modelo: tiny
+		Taxa de Bits: 64:
+			Taxa de erro: 0.6064814814814815
+			Tempo de Processamento (segundos): 21.74024349998217 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.6342592592592593
+			Tempo de Processamento (segundos): 23.100920800003223 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.5601851851851852
+			Tempo de Processamento (segundos): 17.529314100014744 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.5787037037037037
+			Tempo de Processamento (segundos): 31.36634779997985 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.5231481481481481
+			Tempo de Processamento (segundos): 9.822211999999126 
+	Modelo: base
+		Taxa de Bits: 64:
+			Taxa de erro: 0.3472222222222222
+			Tempo de Processamento (segundos): 15.809814000007464 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.28703703703703703
+			Tempo de Processamento (segundos): 15.815860600007 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.30092592592592593
+			Tempo de Processamento (segundos): 15.819620299997041 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.2824074074074074
+			Tempo de Processamento (segundos): 17.53004919999512 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.27314814814814814
+			Tempo de Processamento (segundos): 15.88420150001184 
+	Modelo: small
+		Taxa de Bits: 64:
+			Taxa de erro: 0.26851851851851855
+			Tempo de Processamento (segundos): 50.29152690002229 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.18055555555555555
+			Tempo de Processamento (segundos): 49.55172750001657 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.20833333333333334
+			Tempo de Processamento (segundos): 49.93809239999973 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.18055555555555555
+			Tempo de Processamento (segundos): 49.36212390000583 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.18055555555555555
+			Tempo de Processamento (segundos): 49.413173300010385 
+	Modelo: medium
+		Taxa de Bits: 64:
+			Taxa de erro: 0.24074074074074073
+			Tempo de Processamento (segundos): 148.65193409999483 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.19444444444444445
+			Tempo de Processamento (segundos): 156.47461470001144 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.18055555555555555
+			Tempo de Processamento (segundos): 156.43329840002116 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.18055555555555555
+			Tempo de Processamento (segundos): 156.81351020000875 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.18055555555555555
+			Tempo de Processamento (segundos): 156.15809430001536 
+	Modelo: large
+		Taxa de Bits: 64:
+			Taxa de erro: 0.2037037037037037
+			Tempo de Processamento (segundos): 240.30321710000862 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.19444444444444445
+			Tempo de Processamento (segundos): 245.61857980000786 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.18981481481481483
+			Tempo de Processamento (segundos): 239.0715896000038 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.19907407407407407
+			Tempo de Processamento (segundos): 242.23079999999027 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.19907407407407407
+			Tempo de Processamento (segundos): 236.80961140000727 
+
+Música: Wellerman
+	Modelo: tiny
+		Taxa de Bits: 64:
+			Taxa de erro: 0.5444743935309974
+			Tempo de Processamento (segundos): 35.6018514999887 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.6199460916442049
+			Tempo de Processamento (segundos): 41.319034999993164 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.7601078167115903
+			Tempo de Processamento (segundos): 23.42681070000981 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.6145552560646901
+			Tempo de Processamento (segundos): 40.540733600006206 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.522911051212938
+			Tempo de Processamento (segundos): 33.94579590001376 
+	Modelo: base
+		Taxa de Bits: 64:
+			Taxa de erro: 0.6549865229110512
+			Tempo de Processamento (segundos): 35.61447850000695 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.6522911051212938
+			Tempo de Processamento (segundos): 54.24600639997516 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.49326145552560646
+			Tempo de Processamento (segundos): 52.153003199986415 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.5929919137466307
+			Tempo de Processamento (segundos): 46.00217139997403 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.568733153638814
+			Tempo de Processamento (segundos): 46.47260200002347 
+	Modelo: small
+		Taxa de Bits: 64:
+			Taxa de erro: 0.23450134770889489
+			Tempo de Processamento (segundos): 59.102321999991545 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.20215633423180593
+			Tempo de Processamento (segundos): 60.45093449999695 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.5094339622641509
+			Tempo de Processamento (segundos): 61.552786099986406 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.22641509433962265
+			Tempo de Processamento (segundos): 60.18304360000184 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.22641509433962265
+			Tempo de Processamento (segundos): 60.165669199981494 
+	Modelo: medium
+		Taxa de Bits: 64:
+			Taxa de erro: 0.3261455525606469
+			Tempo de Processamento (segundos): 629.0869061999838 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.261455525606469
+			Tempo de Processamento (segundos): 502.7810416999855 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.2722371967654987
+			Tempo de Processamento (segundos): 602.7772515999968 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.2749326145552561
+			Tempo de Processamento (segundos): 532.0486809999857 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.3261455525606469
+			Tempo de Processamento (segundos): 450.0549367000058 
+	Modelo: large
+		Taxa de Bits: 64:
+			Taxa de erro: 0.2371967654986523
+			Tempo de Processamento (segundos): 791.3512933999882 
+		Taxa de Bits: 128:
+			Taxa de erro: 0.2857142857142857
+			Tempo de Processamento (segundos): 829.6004486999882 
+		Taxa de Bits: 192:
+			Taxa de erro: 0.2371967654986523
+			Tempo de Processamento (segundos): 704.7478008999897 
+		Taxa de Bits: 256:
+			Taxa de erro: 0.33423180592991913
+			Tempo de Processamento (segundos): 977.6446489999944 
+		Taxa de Bits: 320:
+			Taxa de erro: 0.33153638814016173
+			Tempo de Processamento (segundos): 701.4407219999994 
+
+
+
+
+RESULTADO MÉDIO DAS MÚSICAS:
+
+Modelo: tiny
+	Taxa de Bits: 64:
+		Taxa de erro: 0.5444743935309974
+		Tempo de Processamento (segundos): 35.6018514999887 
+	Taxa de Bits: 128:
+		Taxa de erro: 0.6199460916442049
+		Tempo de Processamento (segundos): 41.319034999993164 
+	Taxa de Bits: 192:
+		Taxa de erro: 0.7601078167115903
+		Tempo de Processamento (segundos): 23.42681070000981 
+	Taxa de Bits: 256:
+		Taxa de erro: 0.6145552560646901
+		Tempo de Processamento (segundos): 40.540733600006206 
+	Taxa de Bits: 320:
+		Taxa de erro: 0.522911051212938
+		Tempo de Processamento (segundos): 33.94579590001376 
+
+Modelo: base
+	Taxa de Bits: 64:
+		Taxa de erro: 0.6549865229110512
+		Tempo de Processamento (segundos): 35.61447850000695 
+	Taxa de Bits: 128:
+		Taxa de erro: 0.6522911051212938
+		Tempo de Processamento (segundos): 54.24600639997516 
+	Taxa de Bits: 192:
+		Taxa de erro: 0.49326145552560646
+		Tempo de Processamento (segundos): 52.153003199986415 
+	Taxa de Bits: 256:
+		Taxa de erro: 0.5929919137466307
+		Tempo de Processamento (segundos): 46.00217139997403 
+	Taxa de Bits: 320:
+		Taxa de erro: 0.568733153638814
+		Tempo de Processamento (segundos): 46.47260200002347 
+
+Modelo: small
+	Taxa de Bits: 64:
+		Taxa de erro: 0.23450134770889489
+		Tempo de Processamento (segundos): 59.102321999991545 
+	Taxa de Bits: 128:
+		Taxa de erro: 0.20215633423180593
+		Tempo de Processamento (segundos): 60.45093449999695 
+	Taxa de Bits: 192:
+		Taxa de erro: 0.5094339622641509
+		Tempo de Processamento (segundos): 61.552786099986406 
+	Taxa de Bits: 256:
+		Taxa de erro: 0.22641509433962265
+		Tempo de Processamento (segundos): 60.18304360000184 
+	Taxa de Bits: 320:
+		Taxa de erro: 0.22641509433962265
+		Tempo de Processamento (segundos): 60.165669199981494 
+
+Modelo: medium
+	Taxa de Bits: 64:
+		Taxa de erro: 0.3261455525606469
+		Tempo de Processamento (segundos): 629.0869061999838 
+	Taxa de Bits: 128:
+		Taxa de erro: 0.261455525606469
+		Tempo de Processamento (segundos): 502.7810416999855 
+	Taxa de Bits: 192:
+		Taxa de erro: 0.2722371967654987
+		Tempo de Processamento (segundos): 602.7772515999968 
+	Taxa de Bits: 256:
+		Taxa de erro: 0.2749326145552561
+		Tempo de Processamento (segundos): 532.0486809999857 
+	Taxa de Bits: 320:
+		Taxa de erro: 0.3261455525606469
+		Tempo de Processamento (segundos): 450.0549367000058 
+
+Modelo: large
+	Taxa de Bits: 64:
+		Taxa de erro: 0.2371967654986523
+		Tempo de Processamento (segundos): 791.3512933999882 
+	Taxa de Bits: 128:
+		Taxa de erro: 0.2857142857142857
+		Tempo de Processamento (segundos): 829.6004486999882 
+	Taxa de Bits: 192:
+		Taxa de erro: 0.2371967654986523
+		Tempo de Processamento (segundos): 704.7478008999897 
+	Taxa de Bits: 256:
+		Taxa de erro: 0.33423180592991913
+		Tempo de Processamento (segundos): 977.6446489999944 
+	Taxa de Bits: 320:
+		Taxa de erro: 0.33153638814016173
+		Tempo de Processamento (segundos): 701.4407219999994 
+

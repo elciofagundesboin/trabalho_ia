@@ -6,16 +6,9 @@ Passos:
 2 - Comparar cada resultado obtido com a letra original
 3 - Fazer uma média dos valores
 4 - Com as médias, montar um gráfico
+5 - Salvar os resultados em um arquivo final
 
 Músicas:
-Faroeste Caboclo
-https://music.youtube.com/watch?v=qBIxI580dI8
-
-Cuando Suba la Marea
-https://music.youtube.com/watch?v=FkDPEJf6zDM
-
-
-
 Bohemian Rhapsody
 https://music.youtube.com/watch?v=bSnlKl_PoQU
 

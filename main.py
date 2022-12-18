@@ -86,6 +86,7 @@ def calcula_erro(musica):
 def le_arquivo(arquivo):
     with open(arquivo, 'r', encoding='utf-8') as file:
         lines = file.readlines()
+    file.close()
     
     modelo = []
     k = 0
@@ -218,6 +219,62 @@ def constroi_grafico():
 
     plt.show()
 
+# Função que gera um arquivo de saída Final
+def gera_arquivo_final(musicas):
+    # Abre o arquivo para gravar os resultados
+    arquivo_saida = open('Resultado Final.txt', 'w+', encoding='utf-8')
+    arquivo_saida.write('RESULTADOS DAS MÚSICAS INDIVIDUALMENTE:\n\n')
+    
+    for musica in musicas:
+        with open('resultado/wer/'+ musica +'.txt', 'r', encoding='utf-8') as file:
+            result_wer = file.readlines()
+        file.close()
+        with open('resultado/tempos/'+ musica +'.txt', 'r', encoding='utf-8') as file:
+            result_tempos = file.readlines()
+        file.close()
+        
+        arquivo_saida.write('Música: '+ musica +'\n')
+        
+        modelos = ['tiny','base','small','medium','large']
+        k = 0
+        for modelo in modelos:
+            arquivo_saida.write('\tModelo: '+ modelo +'\n')
+            kbps = 64
+            for i in range (5):
+                linha = '\t\tTaxa de Bits: '+ str(kbps) +':\n\t\t\tTaxa de erro: '+ str(float(result_wer[k])) +'\n\t\t\tTempo de Processamento (segundos): '+ str(float(result_tempos[k])) +' \n'
+                arquivo_saida.write(linha)
+                k += 1
+                kbps += 64
+        
+        arquivo_saida.write('\n')
+    
+    
+    arquivo_saida.write('\n\n\nRESULTADO MÉDIO DAS MÚSICAS:\n\n')
+    
+    with open('resultado/wer/'+ musica +'.txt', 'r', encoding='utf-8') as file:
+        result_wer = file.readlines()
+    file.close()
+    with open('resultado/tempos/'+ musica +'.txt', 'r', encoding='utf-8') as file:
+        result_tempos = file.readlines()
+    file.close()
+    
+    modelos = ['tiny','base','small','medium','large']
+    k = 0
+    for modelo in modelos:
+        arquivo_saida.write('Modelo: '+ modelo +'\n')
+        kbps = 64
+        for i in range (5):
+            linha = '\tTaxa de Bits: '+ str(kbps) +':\n\t\tTaxa de erro: '+ str(float(result_wer[k])) +'\n\t\tTempo de Processamento (segundos): '+ str(float(result_tempos[k])) +' \n'
+            arquivo_saida.write(linha)
+            k += 1
+            kbps += 64
+        
+        arquivo_saida.write('\n')
+    
+    arquivo_saida.close()
+    print('Processamento do arquivo Final Concluído!\n--')
+    
+
 # Função Main que executa o processo todo
 def main():
     # Informar neste Array as músicas que serão processadas:
@@ -236,5 +293,6 @@ def main():
         calcula_media('tempos', musicas)
     '''
     # Mostra na tela o gráfico com as médias
-    constroi_grafico()
+    gera_arquivo_final(musicas)
+    #constroi_grafico()
 main()
