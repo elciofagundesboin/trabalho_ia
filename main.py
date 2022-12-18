@@ -274,25 +274,27 @@ def gera_arquivo_final(musicas):
     arquivo_saida.close()
     print('Processamento do arquivo Final Concluído!\n--')
     
-
 # Função Main que executa o processo todo
 def main():
     # Informar neste Array as músicas que serão processadas:
     # 1 - informar somente o 'Nome da Musica':
     # 2 - as músicas devem estar previamente nomeadas (na pasta 'audio/[kbps]/') no padrão exemplo: "Nome da Musica.mp3"
     musicas = ['Bohemian Rhapsody', 'Counting Stars', 'Summertime Sadness', 'The Sound of Silence', 'Wellerman']
-    '''
+    
     for musica in musicas:
-        # Processa as músicas com Wisper:
-        processa_musica(musica)
-        # Calcula o WER das músicas processadas
+        # Processa as músicas com Wisper (descomentar para executar)
+        #processa_musica(musica)
+        # Calcula o WER das músicas processadas (descomentar para executar)
         calcula_erro(musica)
-        # Calcula a média do WER das músicas processadas
+        # Calcula a média do WER das músicas processadas (descomentar para executar)
         calcula_media('wer', musicas)
-        # Calcula a média do tempo de processamento das músicas processadas
+        # Calcula a média do tempo de processamento das músicas processadas (descomentar para executar)
         calcula_media('tempos', musicas)
-    '''
+
     # Mostra na tela o gráfico com as médias
     gera_arquivo_final(musicas)
-    #constroi_grafico()
-main()
+    constroi_grafico()
+    
+# Executa a função Main
+#main()
+constroi_grafico()

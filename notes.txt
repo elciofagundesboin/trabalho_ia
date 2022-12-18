@@ -1,7 +1,16 @@
+Link para o projeto no Github:
+https://github.com/elciofagundesboin/trabalho_ia
+
+Link para a pasta com as músicas usadas na execução e o vídeo de apresentação:
+
+
+Link para o vídeo de apresentação no YouTube:
+
+
 Questão de Pesquisa:
     Qual é a diferença na eficiência do modelo considerando amostras de um mesmo áudio em qualidades (taxas de bits) ou formatos de arquivo distintos?
 
-Passos:
+Passos (resumo):
 1 - Processar as músicas com o wisper e salvar cada resultado em um arquivo.
 2 - Comparar cada resultado obtido com a letra original
 3 - Fazer uma média dos valores
@@ -10,16 +19,28 @@ Passos:
 
 Músicas:
 Bohemian Rhapsody
-https://music.youtube.com/watch?v=bSnlKl_PoQU
+https://youtube.com/watch?v=bSnlKl_PoQU
 
 Counting Stars
-https://music.youtube.com/watch?v=_GWKkqNoyEA
+https://youtube.com/watch?v=_GWKkqNoyEA
 
 The Sound of Silence
-https://music.youtube.com/watch?v=bjkPQYWNTlg
+https://youtube.com/watch?v=bjkPQYWNTlg
 
 Wellerman
-https://music.youtube.com/watch?v=DPe2diiGJRE
+https://youtube.com/watch?v=DPe2diiGJRE
 
 Summertime Sadness
-https://music.youtube.com/watch?v=fRQg_9ulGuI
+https://youtube.com/watch?v=fRQg_9ulGuI
+
+
+Links de bibliotecas usadas no projeto:
+
+Wisper
+https://github.com/openai/whisper
+
+Jiwer
+https://github.com/jitsi/jiwer
+
+Matplotlib
+https://matplotlib.org/
